@@ -147,20 +147,6 @@
           }
         }
       },
-      "DataControllers/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Models": "1.0.0",
-          "System.Data.SqlClient": "4.8.6"
-        },
-        "compile": {
-          "bin/placeholder/DataControllers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataControllers.dll": {}
-        }
-      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -487,11 +473,6 @@
         "version.txt"
       ]
     },
-    "DataControllers/1.0.0": {
-      "type": "project",
-      "path": "../DataControllers/DataControllers.csproj",
-      "msbuildProject": "../DataControllers/DataControllers.csproj"
-    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -500,8 +481,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataControllers >= 1.0.0",
-      "Models >= 1.0.0"
+      "Models >= 1.0.0",
+      "System.Data.SqlClient >= 4.8.6"
     ]
   },
   "packageFolders": {
@@ -510,11 +491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\LabFinalQ1.csproj",
-      "projectName": "LabFinalQ1",
-      "projectPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\LabFinalQ1.csproj",
+      "projectUniqueName": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\DataControllers.csproj",
+      "projectName": "DataControllers",
+      "projectPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\DataControllers.csproj",
       "packagesPath": "C:\\Users\\Qasim Nauman\\.nuget\\packages\\",
-      "outputPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\obj\\",
+      "outputPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Qasim Nauman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -531,9 +512,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\DataControllers.csproj": {
-              "projectPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\DataControllers.csproj"
-            },
             "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\Models\\Models.csproj": {
               "projectPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\Models\\Models.csproj"
             }
@@ -554,6 +532,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.6, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -566,9 +550,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
