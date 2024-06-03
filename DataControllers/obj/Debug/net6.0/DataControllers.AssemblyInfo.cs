@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataControllers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f13be3efea9137c701e16e789773ff04ee9fbf8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ac6039a98df124153b0cd40dba5762551647344")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataControllers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataControllers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
