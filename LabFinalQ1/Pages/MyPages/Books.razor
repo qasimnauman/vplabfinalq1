@@ -1,0 +1,78 @@
+﻿@page "/books"
+
+<h3>Books Additon</h3>
+<EditForm Model="books" OnValidSubmit="addbook">
+    <br />
+    <label>Book ID</label>
+    <InputNumber required @bind-Value=books.bid placeholder="00" />
+
+    <label>Book Title</label>
+    <InputText required @bind-Value=books.title placeholder="The Kite Runner" />
+
+    <label>Book Author</label>
+    <InputText required @bind-Value=books.author placeholder="Khalid Hoseni" />
+
+    <label>Year</label>
+    <InputDate required @bind-Value=books.year placeholder="" />
+
+    <label>Book Status</label>
+    <InputSelect @bind-Value=books.status>
+        <option value="available">Available</option>
+        <option value="borrowed ">Borrowed</option>
+    </InputSelect>
+
+    <button type="submit" class="btn btn-primart">Add Book</button>
+</EditForm>
+
+<br />
+<br />
+<br />
+<br />
+
+<EditForm Model="newbook" OnValidSubmit="update">
+    <label>Book Name</label>
+    <InputSelect @bind-Value="bid">
+        @foreach(var item in listt)
+        {
+            <option value="@item.bid">@item.title</option>
+        }
+    </InputSelect>
+
+    <br />
+    <br />
+
+    <label>Book Status</label>
+    <InputSelect @bind-Value="sts">
+        <option value="available">Available</option>
+        <option value="borrowed">Borrowed</option>
+    </InputSelect>
+
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Update Status</button>
+</EditForm>
+
+
+@code {
+    public int bid = 0;
+    public string sts = "";
+    BooksModel books = new BooksModel();
+    BooksModel newbook = new BooksModel();
+    List<BooksModel> listt = new List<BooksModel>();
+
+    public void addbook()
+    {
+        BookDB.AddBooks(books);
+    }
+
+    public void update()
+    {
+        BookDB.updatebookstatus(bid, sts);
+    }
+
+    protected override Task OnInitializedAsync()
+    {
+        listt = BookDB.getbooks();
+        return base.OnInitializedAsync();
+    }
+}

@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Blazor Apps/Lab Final/LabFinalQ1/LabFinalQ1/Pages/MyPages/Books.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlQYWdlc1xCb29rcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor Apps/Lab Final/LabFinalQ1/LabFinalQ1/Pages/MyPages/CustomerAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlQYWdlc1xDdXN0b21lckFkZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor Apps/Lab Final/LabFinalQ1/LabFinalQ1/Pages/MyPages/Transactions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlQYWdlc1xUcmFuc2FjdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Blazor Apps/Lab Final/LabFinalQ1/LabFinalQ1/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

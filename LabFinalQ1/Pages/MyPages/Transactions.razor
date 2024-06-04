@@ -1,0 +1,80 @@
+﻿@page "/transactions"
+
+<h3>Boorow A Book</h3>
+
+<EditForm Model="transac" OnValidSubmit="addborrow">
+    
+    <label>Transaction ID</label>
+    <InputNumber @bind-Value="transac.tid" required />
+
+    <br />
+
+    <label>Customer Name</label>
+    <InputSelect @bind-Value="transac.cid" required>
+        @foreach(var item in custlist)
+        {
+            <option value="@item.cid">@item.cname</option>
+        }
+    </InputSelect>
+
+    <br />
+
+    <label>Book Name</label>
+    <InputSelect @bind-Value="transac.bid">
+        @foreach(var item in availbooks)
+        {
+            <option value="@item.bid">@item.title</option>
+        }
+    </InputSelect>
+
+    <br />
+
+    <label>Year</label>
+    <InputDate required @bind-Value=transac.date placeholder="" />
+
+    <br />
+
+    <button class="btn btn-primary" type="submit">Borrow Book</button>
+</EditForm>
+
+<h3>Return a book</h3>
+
+<EditForm Model="transac" OnValidSubmit="addreturn">
+
+    <label>Book Name</label>
+    <InputSelect @bind-Value="transac.bid">
+        @foreach (var item in borrowbooks)
+        {
+            <option value="@item.bid">@item.title</option>
+        }
+    </InputSelect>
+
+    <br />
+    <button class="btn btn-primary" type="submit">Return Book</button>
+</EditForm>
+
+@code {
+    TransactionsModel transac = new TransactionsModel();
+    List<CustomersModel> custlist = new List<CustomersModel>();
+    List<BooksModel> availbooks = new List<BooksModel>();
+    List<BooksModel> borrowbooks = new List<BooksModel>();
+
+    public void addborrow()
+    {
+        transac.type = "borrow";
+        TrandDB.AddTrans(transac);
+    }
+
+    public void addreturn()
+    {
+        
+    }
+
+    protected override void OnInitialized()
+    {
+        custlist = CustDB.getcust();
+        availbooks = BookDB.getavailbooks();
+        borrowbooks = BookDB.getborrwobooks();
+        base.OnInitialized();
+    }
+}

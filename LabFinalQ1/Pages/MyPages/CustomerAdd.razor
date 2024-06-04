@@ -1,0 +1,97 @@
+﻿@page "/custadd"
+
+<h3>CustomerAdd</h3>
+<EditForm Model="cust" OnValidSubmit="addcustt">
+    <label>CustomerID</label>
+    <InputNumber required @bind-Value=cust.cid placeholder="00" />
+    
+    <label>Customer Name</label>
+    <InputText required @bind-Value=cust.cname placeholder="Jhon" />
+    
+    <label>Customer Email</label>
+    <InputText required @bind-Value=cust.email placeholder="jhon@gmail.com" />
+
+    <label>Customer Phone</label>
+    <InputText required @bind-Value=cust.phone placeholder="000-000-0000" />
+
+    <label>Customer Status</label>
+    <InputSelect @bind-Value=cust.status>
+        <option value="active">Active</option>
+        <option value="inactive">InActive</option>
+    </InputSelect>
+
+    <button type="submit" class="btn btn-primart">Add Customer</button>
+</EditForm>
+
+<br />
+<br />
+<br />
+
+<h3>Customer Status Updation</h3>
+<EditForm Model="newcust" OnValidSubmit="update">
+    <label>Customer Name</label>
+    <InputSelect @bind-Value="cid" >
+        @foreach(var item in listt)
+        {
+            <option value="@item.cid">@item.cname</option>
+        }
+    </InputSelect>
+
+    <label>Customer Status</label>
+    <InputSelect @bind-Value="sts">
+        <option value="active">Active</option>
+        <option value="inactive">InActive</option>
+    </InputSelect>
+
+    <button class="btn btn-primary" type="submit">Update Status</button>
+</EditForm>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>ID</tr>
+        <tr>Name</tr>
+        <tr>Email</tr>
+        <tr>Phone</tr>
+        <tr>Status</tr>
+    </thead>
+    <tbody>
+        @foreach(var item in listt)
+        {
+            <tr>
+                <td>@item.cid</td>
+                <td>@item.cname</td>
+                <td>@item.email</td>
+                <td>@item.phone</td>
+                <td>@item.status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public int cid = 0;
+    public string sts = "";
+    CustomersModel cust = new CustomersModel();
+    CustomersModel newcust = new CustomersModel();
+    List<CustomersModel> listt = new List<CustomersModel>();
+
+    public void addcustt()
+    {
+        CustDB.addcust(cust);
+        listt = CustDB.getcust();
+    }
+
+    public void update()
+    {
+        CustDB.updcuststatus(cid, sts);
+        cid = 0;
+        listt = CustDB.getcust();
+        sts = "";
+    }
+
+    protected override Task OnInitializedAsync()
+    {
+        listt = CustDB.getcust();
+        return base.OnInitializedAsync();
+    }
+}

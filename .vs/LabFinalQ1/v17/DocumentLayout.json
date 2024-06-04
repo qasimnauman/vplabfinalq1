@@ -3,7 +3,39 @@
   "WorkspaceRootPath": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|e:\\blazor apps\\lab final\\labfinalq1\\labfinalq1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|e:\\blazor apps\\lab final\\labfinalq1\\labfinalq1\\pages\\mypages\\customeradd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|solutionrelative:labfinalq1\\pages\\mypages\\customeradd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\labfinalq1\\pages\\mypages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|solutionrelative:labfinalq1\\pages\\mypages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D698006-F45F-4188-AD06-63AC80CE61C3}|DataControllers\\DataControllers.csproj|e:\\blazor apps\\lab final\\labfinalq1\\datacontrollers\\tranddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D698006-F45F-4188-AD06-63AC80CE61C3}|DataControllers\\DataControllers.csproj|solutionrelative:datacontrollers\\tranddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|e:\\blazor apps\\lab final\\labfinalq1\\labfinalq1\\pages\\mypages\\transactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|solutionrelative:labfinalq1\\pages\\mypages\\transactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D698006-F45F-4188-AD06-63AC80CE61C3}|DataControllers\\DataControllers.csproj|E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\datacontrollers\\bookdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D698006-F45F-4188-AD06-63AC80CE61C3}|DataControllers\\DataControllers.csproj|solutionrelative:datacontrollers\\bookdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22614B6D-BB55-4B43-B2E6-32A504E032BD}|Models\\Models.csproj|E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\models\\transactionsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22614B6D-BB55-4B43-B2E6-32A504E032BD}|Models\\Models.csproj|solutionrelative:models\\transactionsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22614B6D-BB55-4B43-B2E6-32A504E032BD}|Models\\Models.csproj|E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\models\\booksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22614B6D-BB55-4B43-B2E6-32A504E032BD}|Models\\Models.csproj|solutionrelative:models\\booksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D698006-F45F-4188-AD06-63AC80CE61C3}|DataControllers\\DataControllers.csproj|E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\datacontrollers\\custdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D698006-F45F-4188-AD06-63AC80CE61C3}|DataControllers\\DataControllers.csproj|solutionrelative:datacontrollers\\custdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\labfinalq1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BC57ED6B-1751-4EF5-B58E-73BD05323D98}|LabFinalQ1\\LabFinalQ1.csproj|solutionrelative:labfinalq1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -18,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +58,130 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrandDB.cs",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\TrandDB.cs",
+              "RelativeDocumentMoniker": "DataControllers\\TrandDB.cs",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\TrandDB.cs",
+              "RelativeToolTip": "DataControllers\\TrandDB.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T14:57:11.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "LabFinalQ1\\Pages\\Index.razor",
-              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\Index.razor",
-              "RelativeToolTip": "LabFinalQ1\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Title": "CustomerAdd.razor",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\MyPages\\CustomerAdd.razor",
+              "RelativeDocumentMoniker": "LabFinalQ1\\Pages\\MyPages\\CustomerAdd.razor",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\MyPages\\CustomerAdd.razor",
+              "RelativeToolTip": "LabFinalQ1\\Pages\\MyPages\\CustomerAdd.razor",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T18:49:37.304Z",
+              "WhenOpened": "2024-06-03T14:48:40.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionsModel.cs",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\Models\\TransactionsModel.cs",
+              "RelativeDocumentMoniker": "Models\\TransactionsModel.cs",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\Models\\TransactionsModel.cs",
+              "RelativeToolTip": "Models\\TransactionsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T14:46:57.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transactions.razor",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\MyPages\\Transactions.razor",
+              "RelativeDocumentMoniker": "LabFinalQ1\\Pages\\MyPages\\Transactions.razor",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\MyPages\\Transactions.razor",
+              "RelativeToolTip": "LabFinalQ1\\Pages\\MyPages\\Transactions.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T14:43:51.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Books.razor",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\MyPages\\Books.razor",
+              "RelativeDocumentMoniker": "LabFinalQ1\\Pages\\MyPages\\Books.razor",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\MyPages\\Books.razor",
+              "RelativeToolTip": "LabFinalQ1\\Pages\\MyPages\\Books.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T14:08:07.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookDB.cs",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\BookDB.cs",
+              "RelativeDocumentMoniker": "DataControllers\\BookDB.cs",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\BookDB.cs",
+              "RelativeToolTip": "DataControllers\\BookDB.cs",
+              "ViewState": "AQIAAEoAAACAmpmZmZkpwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T14:16:48.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksModel.cs",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\Models\\BooksModel.cs",
+              "RelativeDocumentMoniker": "Models\\BooksModel.cs",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\Models\\BooksModel.cs",
+              "RelativeToolTip": "Models\\BooksModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T14:12:27.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DBhelper.cs",
               "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\DBhelper.cs",
               "RelativeDocumentMoniker": "DataControllers\\DBhelper.cs",
               "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\DBhelper.cs",
               "RelativeToolTip": "DataControllers\\DBhelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T18:45:34.603Z"
+              "WhenOpened": "2024-06-03T13:36:31.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustDB.cs",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\CustDB.cs",
+              "RelativeDocumentMoniker": "DataControllers\\CustDB.cs",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\DataControllers\\CustDB.cs",
+              "RelativeToolTip": "DataControllers\\CustDB.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAQwFkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T13:34:45.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.razor",
+              "DocumentMoniker": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "LabFinalQ1\\Pages\\Index.razor",
+              "ToolTip": "E:\\Blazor Apps\\Lab Final\\LabFinalQ1\\LabFinalQ1\\Pages\\Index.razor",
+              "RelativeToolTip": "LabFinalQ1\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T18:49:37.304Z"
             }
           ]
         }

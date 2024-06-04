@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabFinalQ1", "LabFinalQ1\LabFinalQ1.csproj", "{BC57ED6B-1751-4EF5-B58E-73BD05323D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataControllers", "DataControllers\DataControllers.csproj", "{5D698006-F45F-4188-AD06-63AC80CE61C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataControllers", "DataControllers\DataControllers.csproj", "{5D698006-F45F-4188-AD06-63AC80CE61C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{22614B6D-BB55-4B43-B2E6-32A504E032BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{22614B6D-BB55-4B43-B2E6-32A504E032BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

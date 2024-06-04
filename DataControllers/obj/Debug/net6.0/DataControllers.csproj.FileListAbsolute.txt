@@ -1,0 +1,16 @@
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\bin\Debug\net6.0\DataControllers.deps.json
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\bin\Debug\net6.0\DataControllers.dll
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\bin\Debug\net6.0\DataControllers.pdb
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\bin\Debug\net6.0\Models.dll
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\bin\Debug\net6.0\Models.pdb
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.csproj.AssemblyReference.cache
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.GeneratedMSBuildEditorConfig.editorconfig
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.AssemblyInfoInputs.cache
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.AssemblyInfo.cs
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.csproj.CoreCompileInputs.cache
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.sourcelink.json
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataCont.1BCF343B.Up2Date
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.dll
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\refint\DataControllers.dll
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\DataControllers.pdb
+E:\Blazor Apps\Lab Final\LabFinalQ1\DataControllers\obj\Debug\net6.0\ref\DataControllers.dll
